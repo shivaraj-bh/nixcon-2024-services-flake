@@ -4,17 +4,20 @@ Presentation material for [my talk at NixCon 2024](https://talks.nixcon.org/nixc
 
 This presentation uses <https://github.com/juspay/todo-app> to demonstrate how `services-flake` can simplify Dev/CI workflows.
 
-## View the presentation
+## View presentation
 
 ```sh
 nix run github:shivaraj-bh/nixcon-2024-services-flake
 ```
 
-## Development
+## Edit presentation
 
 ```sh
+nix develop
 presenterm presentation.md
 ```
 >[!NOTE]
 > `presenterm` has hot-reload builtin
+
+Open your favourite editor and modify [slides](presentation.md).
 
