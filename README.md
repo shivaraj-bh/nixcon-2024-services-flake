@@ -10,3 +10,11 @@ Run the presentation locally
 nix run github:shivaraj-bh/nixcon-2024-services-flake
 ```
 
+## Development
+
+```sh
+presenterm presentation.md
+```
+>[!NOTE]
+> `presenterm` has hot-reload builtin
+
