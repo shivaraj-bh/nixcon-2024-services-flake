@@ -14,7 +14,7 @@
           name = "start-presentation";
           runtimeInputs = [ pkgs.presenterm ];
           text = ''
-            exec presenterm ${inputs.self}/presentation.md
+            exec presenterm ${inputs.self}/presentation.md --present
           '';
         });
         devShells.default = pkgs.mkShell {
