@@ -21,3 +21,11 @@ presenterm presentation.md
 
 Open your favourite editor and modify [slides](presentation.md).
 
+## Generate PDF
+>[!NOTE]
+> You have to clone the repo for this as `presenterm` doesn't yet support specifying a custom location to output the PDF.
+
+```sh
+nix run .#exportPdf
+```
+
