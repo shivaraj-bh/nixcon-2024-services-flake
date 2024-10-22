@@ -58,7 +58,7 @@ Best practices
 
 <!-- end_slide -->
 
-Future scope
+Future Scope
 ---
 
 # Portable service layer (Issue _#354_)
@@ -72,4 +72,12 @@ Future scope
   services.redis.enable = true;
 }
 ```
+
+<!-- end_slide -->
+
+Other Usage Examples
+---
+
+* Nammayatri (OSS alternative for Uber in India) uses `services-flake`, see [](https://nixos.asia/en/blog/replacing-docker-compose)
+* Hyperswitch (OSS payments switch) will soon adopt `services-flake`, see [](https://github.com/juspay/hyperswitch/pull/6377)
 
